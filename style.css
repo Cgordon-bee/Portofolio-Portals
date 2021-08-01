@@ -6,32 +6,30 @@
 }
 /* page layout colors & Font*/
 body {
-    background-color: #becaca;
+    background-color:white;
     font-family: Arial, Helvetica, sans-serif;
     
         
-    
-
 }
 
 /* format of header banner and associate elements*/
 .header {
    font-family:sans-serif;
    font-size:xx-large;
-   padding-top:0mm;
    border-style:solid;
-   border-width: 50px;
-   border: right 75%
-
-   
+   border-width: 30px;
+   border: right 55%;
+   border:none;
+   background-color: darkslategray;
  
 }
 
 .name {
-
  background-color: lightseagreen;
- border-width: 50px;
- border-right-width: 50%;
+ padding: left 30px; padding-top: 30px;
+ border: 10px;
+ display: inline;
+ font-family: cursive;
 
  
 }
@@ -39,12 +37,7 @@ body {
 
 /*Client's name on banner*/
 
-.h2 {
-    color: #13293d;
 
-
-
-}
 
 /* menu bar*/
 .header nav {
@@ -52,13 +45,14 @@ body {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30x;
+    flex-wrap: wrap;
 
 
 }
 
 .header nav ul {
     list-style-type:none;
-    float: left;
+    
 
 }
 
@@ -76,90 +70,82 @@ a {
 
 /* Hero styling banner*/
 .hero {
-    height: 100px;
+    height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("./Portofolio-Portals/images/067F48BA-DD1A-4E2B-9C5A-B05B6A5E0A24_4_5005_c.jpeg");
-    background-size: cover;
+    background-image: url("/Portfolio-Portals/images/067F48BA-DD1A-4E2B-9C5A-B05B6A5E0A24_4_5005_c.jpeg");
     background-position: center;
-
-   
+    padding: top 10px;
+    float:right top;
+    
 }
 
-.AboutMe {
+.content {
+display: flex;
+flex-direction:column;
+float: right;
+margin-left: 400px;
+margin-block-end: auto;
+border-left:rgb(4, 4, 78);
+height: 200px;;
+padding-top: 30px;
+padding-left: 20px;
+border-style: solid;
+border-right: hidden;
+border-top: hidden;
+border-bottom: hidden;
+background-color: white;
 
+
+}
+
+.h2 {
+    
+    font-size: 400px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+    float: left;
+    
+    
+}
+.AboutMe {
     margin-left: 300px;
     width: 75%;
-    margin-inline-end: auto;
     border-left: 2px solid rgb(51, 54, 59);
+    border-block-end-width: 40px;
     padding: 20px;
-    color: rgb(59, 57, 57);
+    
 }
     
-.MyWork {
-
-margin-left:  300px;
-border-style: double;
-border:rgb(32, 243, 67);
-padding-left: 30px;
-border-width: medium;
-}
-
-
-
-.contactMe {
-
- margin-left: 300px;
-
-}
-
-
- 
-    
-
-
-
-.projects{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 60px;
-    background: #48494b;
-    color: antiquewhite;
-    margin-left: 300px;
-    
-
-  }
-  
-
-  .cardHeader {
-    padding: 30px;
-    background: #13293d;
-    color: #fff;
-  }
-  
-  .cardImg {
-    width: 100%;
-    min-width: 400px;
-
-}
 
 
 
 /*Aside bar*/
 .sidebar {
-
-    margin-left: 0px;
+    margin-right: 200px;
+    margin-left: 150px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100vh;
+    font-family: 'Trebuchet MS', sans-serif; font-size: 40px;
+    color: blue;
+    display: flex; display: grid;
     
 
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #bdd6e4;
 }
 
-   
+.avatar {
+    height: 100;
+    width: 150px;
+    border-color: aqua;
+    border-width: 3px;
+    border-radius: 75px;
+    margin-left: 30px;
 
+
+}
 
     /* The footer section */
 .footer {
