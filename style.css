@@ -147,4 +147,24 @@ background-color: white;
 
 }
 
+.ul {
+    list-style:circle;
+}
 
+
+.p {
+font-size: large;
+
+
+}
+
+
+#footerContainer{
+    box-sizing: border-box;
+    text-align: center;
+    align-content: center;
+    height: 100px;
+    background-image: linear-gradient(grey, silver,white);
+
+
+}
